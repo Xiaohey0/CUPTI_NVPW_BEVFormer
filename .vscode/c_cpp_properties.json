@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "WSL CUDA",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/cuda/targets/x86_64-linux/include",
+                "/usr/local/cuda/extras/CUPTI/include",
+                "/usr/local/cuda/extras/CUPTI/samples/extensions/include/profilerhost_util",
+                "/usr/local/cuda/extras/CUPTI/samples/extensions/include/c_util",
+                "/usr/local/cuda/extras/CUPTI/samples/common"
+            ],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

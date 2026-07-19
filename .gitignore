@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Conda and local environment
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# Native build outputs
+**/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.o
+*.a
+*.so
+
+# Local datasets, checkpoints, captures, and generated reports
+data/*
+!data/.gitkeep
+checkpoints/*
+!checkpoints/.gitkeep
+reports/*
+!reports/.gitkeep
+benchmarks/MSDA/captured_tensors/*
+!benchmarks/MSDA/captured_tensors/.gitkeep
+
+# NVIDIA profiler outputs
+*.ncu-rep
+*.nsys-rep
+*.qdrep
+*.sqlite
+
+# Editor and OS files
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Temporary and backup files
+*.tmp
+*.log
+*.orig
+*.bak
+*~

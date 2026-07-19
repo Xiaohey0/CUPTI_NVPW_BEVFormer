@@ -1,0 +1,15 @@
+* text=auto eol=lf
+
+*.a binary
+*.bin binary
+*.gif binary
+*.jpeg binary
+*.jpg binary
+*.ncu-rep binary
+*.nsys-rep binary
+*.o binary
+*.pkl binary
+*.png binary
+*.pt binary
+*.pth binary
+*.so binary
